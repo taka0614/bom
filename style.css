@@ -180,6 +180,7 @@ nav {
 
 .contestant img {
     width: 55%;
+    object-fit: cover;
 }
 
 .contestant p {
