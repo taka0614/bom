@@ -162,6 +162,7 @@ nav {
 .sponsors_logo img {
     width: calc(60%/4);
     margin: 1%;
+    border: 1px solid;
 }
 
 .sponsors_logo img:last-of-type {
