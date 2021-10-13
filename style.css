@@ -375,6 +375,10 @@ h3 {
     left: 0;
 }
 
+.main_title {
+    margin: 10% 0;
+}
+
 .main_title p {
     text-align: center;
 }
