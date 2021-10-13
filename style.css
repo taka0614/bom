@@ -11,7 +11,6 @@ a {
 
 h1 {
     font-size: 24px;
-    margin: 5%;
 }
 
 h1 span {
@@ -76,7 +75,7 @@ nav {
     margin-right: 10%;
 } 
 */
-.main_title {
+.main_title:last-child {
     text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -335,7 +334,7 @@ iframe {
     content: "";
     display: block;
     width: 80%;
-    height: 30vh;
+    height: 25vh;
     background-color: rgba(255,255,255,.8);
     position: absolute;
     top: 20%;
@@ -350,8 +349,8 @@ iframe {
 
 h1 {
     position: absolute;
-    top: 26%;
-    left: 17%;
+    top: 25%;
+    left: 20%;
 }
 
 h1 span {
