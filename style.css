@@ -374,3 +374,7 @@ h3 {
     top: 0;
     left: 0;
 }
+
+.main_title p {
+    text-align: center;
+}
