@@ -63,11 +63,11 @@ h1 span {
 .back {
     background-image: url(img/dahlia.png);
     background-size: cover;
-    width: 70%;
+    width: 80%;
     height: 300px;
     position: absolute;
-    top: 42%;
-    left: 13%;
+    top: 40%;
+    left: 10%;
     opacity: .2;
 }
 
