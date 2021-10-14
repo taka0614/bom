@@ -64,7 +64,7 @@ h1 span {
     background-image: url(img/dahlia.png);
     background-size: cover;
     width: 80%;
-    height: 300px;
+    height: 320px;
     position: absolute;
     top: 40%;
     left: 10%;
@@ -104,7 +104,7 @@ h1 span {
 .entry_contents {
     text-align: center;
     width: 80%;
-    margin: 3% auto;
+    margin: 10% auto;
     padding: 3%;
     box-shadow: 2px 2px 15px rgb(0 0 0 / 50%);
 }
