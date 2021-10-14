@@ -21,13 +21,13 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 55vh;
+    height: 50vh;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25% , rgba(255,255,255,0) 60%);
 }
 
 .top_view img {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     object-fit: cover;
 }
 
@@ -50,7 +50,7 @@ h1 {
     left: 50%;
     font-size: 30px;
     transform: translate(-50%, -50%);
-    white-space: nowrap;
+    white-space: nowrap;text-shadow: 1px 1px 10px rgb(255 255 255 / 50%);
 }
 
 h1 span {
