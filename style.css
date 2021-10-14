@@ -56,6 +56,9 @@ h1 span {
     font-size: 40px;
 }
 
+.main_title {
+    margin-top: 10%;
+}
 
 .main_title:last-child {
     text-align: center;
