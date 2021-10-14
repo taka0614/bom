@@ -103,19 +103,19 @@ h1 span {
 
 .entry_contents {
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: 10% auto;
-    padding: 3%;
+    padding: 10% 3%;
     box-shadow: 2px 2px 15px rgb(0 0 0 / 50%);
 }
 
 .entry_title {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .entry_sub_title {
-    font-size: 10px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -125,19 +125,21 @@ h1 span {
 
 .entry_text {
     font-weight: bold;
+    margin: 3% auto;
 }
 
 .btn {
-    background: rgb(0,128,0);
-    background: linear-gradient(0deg, rgba(0,128,0,1) 0%, rgba(50,210,50,1) 80%, rgba(255,255,255,1) 100%);
+    background: #a02768;
     border-radius: 8px;
-    padding: 5px;
+    padding: 10px;
     width: 230px;
-    margin: 10px auto;
+    margin: 10% auto;
 }
 
 .btn a {
-    color: #333;
+    color: #ebd188;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .notes {
@@ -145,40 +147,36 @@ h1 span {
 }
 
 .notes p {
-    font-size: 10px;
+    font-size: 12px;
     text-align: left;
     display: inline-block;
 }
 
 .sponsors {
-    position: relative;
-    margin: 5% 0;
+    padding: 10% 5%;
 }
 
-.sponsors p {
-    position: absolute;
-    top: 15%;
-    left: 2%;
+.sponsors p , .contestants_title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 3%
 }
 
 .sponsors_logo {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .sponsors_logo img {
-    width: calc(60%/4);
-    margin: 1%;
+    width: 23%;
     border: 1px solid;
-}
-
-.sponsors_logo img:last-of-type {
-    margin-right: 3%;
+    margin: 1%;
 }
 
 .contestants {
     text-align: center;
-    padding: 3%;
+    padding: 10% 3%;
 }
 
 .contestant {
@@ -193,13 +191,17 @@ h1 span {
 
 .contestant p {
     margin-left: 3%;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .info {
     background-color: #eee;
     text-align: center;
-    padding: 5%;
+    padding: 10% 3%;
+}
+
+.info img {
+    width: 100%;
 }
 
 .info_title {
@@ -213,18 +215,11 @@ h1 span {
 iframe {
     width: 100%;
     height: 200px;
+    margin: 5% auto;
 }
 
 .info_contents {
     position: relative;
-}
-
-.info_text {
-    position: absolute;
-    text-align: left;
-    font-size: 13px;
-    top: 25%;
-    left: 2%;
 }
 
 .info_image {
@@ -250,10 +245,6 @@ iframe {
     text-align: center;
 }
 
-.info_wrap img {
-    width: 80%;
-}
-
 .entry_contents2 {
     margin: 10% auto;
 }
@@ -263,7 +254,8 @@ iframe {
 }
 
 .bom p {
-    margin: 5% 10%;
+    margin: 5%;
+    margin-bottom: 10%;
     text-align: left;
     font-size: 14px;
 }
@@ -271,7 +263,7 @@ iframe {
 .system {
     background-color: #373c47;
     text-align: center;
-    padding: 5%;
+    padding: 10% 3%;
 }
 
 .system_title {
@@ -311,19 +303,19 @@ iframe {
 .bom_contents_title {
     font-weight: bold;
     color: #aaa;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10%;
 }
 
 .bom_contents_text {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .entry_contents3 {
-    padding: 5% 10%;
+    padding: 10% 5%;
     text-align: left;
 }
 
 .entry_contents3 p {
-    font-size: 10px;
+    font-size: 14px;
 }
