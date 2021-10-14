@@ -48,14 +48,14 @@ h1 {
     position: absolute;
     top: 40%;
     left: 50%;
-    font-size: 34px;
+    font-size: 30px;
     transform: translate(-50%, -50%);
     white-space: nowrap;text-shadow: 1px 1px 10px rgb(255 255 255 / 50%);
 }
 
 h1 span {
     color: #a02768;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .main_title {
@@ -69,7 +69,7 @@ h1 span {
 
 .main_title p {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
 }
 
