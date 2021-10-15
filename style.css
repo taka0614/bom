@@ -331,9 +331,12 @@ iframe {
 
 @media (min-width:768px) {
 
+    .top_view {
+        height: 60vh;
+    }
+
     .top_view img {
         height: 60vh;
-        object-position: top;
     }
 
     .top_view::before {
