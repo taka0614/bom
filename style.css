@@ -402,6 +402,19 @@ iframe {
         margin-top: 5%;
     }
 
+    .box {
+        display: flex;
+        margin: 5% 0;
+    }
+
+    .box.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .info img {
+        width: 50%;
+    }
+
     .bom p {
         font-size: 30px;
     }
