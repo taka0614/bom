@@ -9,6 +9,12 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
 .top_view {
     height: 60vh;
     position: relative;
@@ -63,11 +69,12 @@ h1 span {
 .back {
     background-image: url(img/dahlia.png);
     background-size: cover;
-    width: 80%;
+    transform: translate(-50%, -50%);
+    width: 300px;
     height: 320px;
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 63%;
+    left: 50%;
     opacity: .2;
 }
 
@@ -318,4 +325,89 @@ iframe {
 
 .entry_contents3 p {
     font-size: 14px;
+}
+
+@media (min-width:768px) {
+
+    .top_view img {
+        height: 60vh;
+    }
+
+    .top_view::before {
+        height: 60vh;
+    }
+
+    .back {
+        width: 400px;
+        height: 440px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+
+    h1 {
+        top: 50%;
+        font-size: 60px;
+    }
+
+    h1 span {
+        font-size: 80px;
+    }
+
+    .main_title p , .entry_text , .bom_contents_title {
+        font-size: 32px;
+    }
+
+    .title  {
+        line-height: 34px;
+    }
+
+    .entry_contents {
+        width: 90%;
+    }
+
+    .entry_title , .sponsors p , .contestants_title , .info_title , h2 , .system_title {
+        font-size: 36px;
+    }
+
+    .entry_sub_title {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    .notes p {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 30px;
+        width: 500px;
+        margin: 5% auto;
+    }
+
+    .btn a , .system_text , .bom_contents_text , .entry_contents3 p {
+        font-size: 24px;
+    }
+
+    .contestant p , .info_subtitle , .contents_text {
+        font-size: 20px;
+    }
+
+    iframe {
+        height: 612px;
+        margin: 0;
+    }
+
+    iframe:last-of-type {
+        margin-top: 5%;
+    }
+
+    .bom p {
+        font-size: 30px;
+    }
+
+    .info {
+        padding-bottom: 0;
+    }
+
 }
