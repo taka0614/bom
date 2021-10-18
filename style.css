@@ -129,7 +129,7 @@ h1 span {
 .entry_title {
     font-weight: bold;
     font-size: 17px;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .entry_sub_title {
@@ -168,7 +168,7 @@ h1 span {
     font-size: 12px;
     text-align: left;
     display: inline-block;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 
 .sponsors {
