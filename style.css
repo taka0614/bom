@@ -159,7 +159,7 @@ h1 span {
     padding-bottom: 15px;
     width: 280px;
     margin: 8% auto;
-    box-shadow: -3px -5px 5px 2px rgb(0 0 0 / 40%) inset;
+    box-shadow: -3px -5px 5px 2px rgb(0 0 0 / 60%) inset;
     position: relative;
     overflow: hidden;
 }
