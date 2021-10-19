@@ -153,11 +153,11 @@ h1 span {
 }
 
 .btn {
-    background: #a02768;
+    background: linear-gradient(135deg,  rgba(34,35,38,1) 0%,rgba(51,56,58,1) 5%,rgba(74,79,84,1) 21%,rgba(52,55,58,1) 47%,rgba(69,72,77,1) 71%,rgba(41,42,45,1) 90%,rgba(20,20,20,1) 100%);
     border-radius: 8px;
     padding: 10px;
     padding-bottom: 15px;
-    width: 230px;
+    width: 280px;
     margin: 8% auto;
     box-shadow: -3px -5px 5px 2px rgb(0 0 0 / 40%) inset;
     position: relative;
@@ -181,7 +181,7 @@ h1 span {
 .btn a {
     color: #ebd188;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     text-shadow: 1px 3px 5px rgba( 0, 0, 0, 0.8);
 }
 
