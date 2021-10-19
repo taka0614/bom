@@ -156,6 +156,7 @@ h1 span {
     background: #a02768;
     border-radius: 8px;
     padding: 10px;
+    padding-bottom: 15px;
     width: 230px;
     margin: 8% auto;
     box-shadow: -3px -5px 5px 2px rgb(0 0 0 / 40%) inset;
