@@ -503,4 +503,10 @@ iframe {
         padding-top: 10%;
     }
 
+    p.comment {
+        max-width: 600px;
+        margin: auto;
+        font-size: 20px;
+    }
+
 }
