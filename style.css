@@ -219,22 +219,55 @@ h1 span {
 
 .contestants {
     text-align: center;
-    padding: 10% 3%;
+    padding: 10% 0%;
+}
+
+.contestant_wrap {
+    margin: 10% 0;
+}
+
+.contrstant_reverse {
+    flex-direction: row-reverse;
 }
 
 .contestant {
     display: flex;
-    margin: 5%;
+    justify-content: center;
 }
 
 .contestant img {
-    width: 50%;
+    width: 60%;
+    min-height: 250px;
     object-fit: cover;
 }
 
 .contestant p {
-    margin-left: 3%;
     font-size: 15px;
+    font-weight: bold;
+}
+
+.contestant_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #a02768;
+    padding: 3%;
+}
+
+p.comment {
+    text-align: left;
+    margin-top: 3%;
+    padding: 5%;
+}
+
+p.grade {
+    font-size: 17px;
+    color: #ebd188;
+}
+
+p.name {
+    font-size: 20px;
+    color: #fff;
 }
 
 .info {
