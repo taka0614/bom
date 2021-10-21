@@ -123,11 +123,10 @@ h2 {
 
 .frame {
     background-image: url(img/86577.png);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     box-shadow: none;
-    width: 98%;
+    width: 100%;
     padding-top: 15%;
 }
 
