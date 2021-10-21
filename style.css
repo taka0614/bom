@@ -66,6 +66,10 @@ h1 span {
     font-size: 60px;
 }
 
+h2 {
+    font-size: 24px;
+}
+
 .back {
     background-image: url(img/tiara.png);
     background-size: cover;
@@ -129,7 +133,7 @@ h1 span {
 
 .entry_title {
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .entry_sub_title {
@@ -144,6 +148,7 @@ h1 span {
 .entry_text {
     font-weight: bold;
     margin: 3% auto;
+    font-size: 18px;
 }
 
 @keyframes light {
@@ -157,9 +162,8 @@ h1 span {
     border-radius: 8px;
     padding: 10px;
     padding-bottom: 15px;
-    width: 280px;
+    width: 300px;
     margin: 8% auto;
-    box-shadow: -3px -5px 5px 2px rgb(0 0 0 / 60%) inset;
     position: relative;
     overflow: hidden;
 }
@@ -179,7 +183,7 @@ h1 span {
 }
 
 .btn a {
-    color: #ebd188;
+    color: #fff;
     font-weight: bold;
     font-size: 24px;
     text-shadow: 1px 3px 5px rgba( 0, 0, 0, 0.8);
@@ -201,7 +205,7 @@ h1 span {
 
 .sponsors p , .contestants_title {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     margin-bottom: 3%
 }
@@ -283,6 +287,7 @@ p.name {
 
 .info_title {
     font-weight: bold;
+    font-size: 20px;
 }
 
 .info_subtitle {
@@ -346,6 +351,7 @@ iframe {
 
 .system_title {
     color: #ebd188;
+    font-size: 20px;
 }
 
 .system_text {
@@ -375,13 +381,13 @@ iframe {
 }
 
 .text_wrap {
-    padding: 10% 15%;
+    padding: 10%;
 }
 
 .bom_contents_title {
     font-weight: bold;
     color: #aaa;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 10%;
 }
 
