@@ -381,7 +381,7 @@ iframe {
 }
 
 .text_wrap {
-    padding: 10%;
+    padding: 10% 5%;
 }
 
 .bom_contents_title {
@@ -393,6 +393,7 @@ iframe {
 
 .bom_contents_text {
     font-size: 14px;
+    padding: 0% 5%;
 }
 
 .entry_contents3 {
