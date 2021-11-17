@@ -26,6 +26,7 @@ a {
     position: relative;
     background-image: url(img/22410352.jpg);
     background-color: rgba(255,255,255,.9);
+    background-size: cover;
     background-blend-mode: lighten;
     overflow: hidden;
 }
@@ -132,6 +133,18 @@ h1 {
 h1 span {
     color: #a02768;
     font-size: 60px;
+}
+
+.bivi {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.bivi p {
+    margin: 5%;
+    margin-bottom: 10%;
+    text-align: left;
+    font-size: 14px;
 }
 
 h2 {
