@@ -33,7 +33,7 @@ a {
     margin: 0 10%;
     background-image: url(img/22410352.jpg);
     background-size: cover;
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(255,255,255,.9);
     background-blend-mode: lighten;
     z-index: 1;
 }
