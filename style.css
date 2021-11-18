@@ -24,7 +24,7 @@ img.bob_img {
     padding: 10%;
     background-image: url(img/22410352.jpg);
     background-size: cover;
-    background-color: rgba(255,255,255,.9);
+    background-color: rgba(255,255,255,.95);
     background-blend-mode: lighten;
     text-align: center;
     margin-bottom: 10%;
