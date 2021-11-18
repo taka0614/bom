@@ -96,9 +96,15 @@ h1 span {
 }
 
 p.top_title {
-    padding: 5%;
     margin: 10% 0;
+    font-size: 28px;
     font-weight: bold;
+    text-align: center;
+}
+
+p.top_title span {
+    font-size: 45px;
+    color: #a02768;
 }
 
 h2 {
@@ -116,7 +122,7 @@ h2 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50vh;
+    height: 51vh;
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25% , rgba(255,255,255,0) 60%);
 }
 
@@ -479,9 +485,12 @@ iframe {
     }
 
     .view_wrap {
-        padding: 10%;
-        margin: 5% auto;
-        width: 70%;
+        margin: 5% 0;
+        width: 100%;
+    }
+
+    .thema {
+        margin-top: 55%;
     }
 
     .back {
@@ -510,8 +519,12 @@ iframe {
     }
 
     p.top_title {
-        margin: 20% 0 10%;
-        font-size: 34px;
+        margin: 10% 0%;
+        font-size: 60px;
+    }
+
+    p.top_title span {
+        font-size: 80px;
     }
 
     .entry_contents {
