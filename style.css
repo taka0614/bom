@@ -227,6 +227,10 @@ h2 , .entry_title {
     letter-spacing: 2px;
 }
 
+p.entry_text strong {
+    font-size: 26px;
+}
+
 @keyframes light {
     0% { left: -20%; }
     10% { left: 120%; }
