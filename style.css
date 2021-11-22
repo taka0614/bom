@@ -90,7 +90,7 @@ h1 span {
 
 .bivi {
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .bivi p {
@@ -202,7 +202,8 @@ h2 {
     background-position: center;
     box-shadow: none;
     width: 100%;
-    padding-top: 15%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 h2 , .entry_title {
@@ -297,7 +298,6 @@ h2 , .entry_title {
 
 .contestants {
     text-align: center;
-    padding-top: 10%;
 }
 
 .contestant_wrap {
@@ -419,7 +419,7 @@ iframe {
 
 .bom p {
     margin: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     text-align: left;
     font-size: 14px;
 }
@@ -528,7 +528,7 @@ p.merit_text {
     }
 
     .view_wrap {
-        margin: 15% 0 5%;
+        margin: 22% 0 5%;
         width: 100%;
     }
 
@@ -539,7 +539,7 @@ p.merit_text {
     .back {
         width: 400px;
         height: 220px;
-        top: 70%;
+        top: 50%;
         left: 50%;
         transform: translate(-50% , -50%);
     }
@@ -554,7 +554,7 @@ p.merit_text {
     }
 
     .main_title p , .entry_text , .bom_contents_title {
-        font-size: 32px;
+        font-size: 36px;
     }
 
     .title  {
@@ -593,11 +593,15 @@ p.merit_text {
     }
 
     .btn a , .system_text , .bom_contents_text , .entry_contents3 p {
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .contestant p , .info_subtitle , .contents_text {
         font-size: 20px;
+    }
+
+    .bivi p {
+        font-size: 30px;
     }
 
     video {
@@ -646,7 +650,11 @@ p.merit_text {
     }
 
     .merit_title {
-        font-size: 32px;
+        font-size: 36px;
+    }
+
+    p.merit_text {
+        font-size: 30px;
     }
 
 }
