@@ -242,7 +242,7 @@ p.entry_text strong {
     background-color: #a02768;
     border-radius: 8px;
     padding: 10px;
-    width: 300px;
+    width: 100%;
     margin: 8% auto;
     position: relative;
     overflow: hidden;
