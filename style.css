@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Shippori Mincho', serif;
 }
 
 a {
@@ -73,6 +72,7 @@ h1 {
     text-align: center;
     font-size: 30px;
     white-space: nowrap;text-shadow: 1px 1px 10px rgb(255 255 255 / 50%);
+    font-family: 'Shippori Mincho', serif;
     z-index: 1;
 }
 
@@ -148,6 +148,7 @@ h2 {
 }
 
 .main_title {
+    font-family: 'Shippori Mincho', serif;
     margin-top: 35%;
     z-index: 1;
 }
@@ -195,9 +196,9 @@ h2 {
     padding-top: 15%;
 }
 
-.entry_title {
+h2 , .entry_title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .entry_sub_title {
@@ -225,7 +226,6 @@ h2 {
     background-color: #a02768;
     border-radius: 8px;
     padding: 10px;
-    padding-bottom: 15px;
     width: 300px;
     margin: 8% auto;
     position: relative;
@@ -269,7 +269,7 @@ h2 {
 
 .sponsors p , .contestants_title {
     text-align: center;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 3%
 }
@@ -607,15 +607,32 @@ iframe {
 
 }
 
+.merit {
+    margin: 10% 0;
+}
+
 .merit_title {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     color: #a02768;
+    margin-bottom: 5%;
+}
+
+.merit_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5% 0;
 }
 
 p.merit_text {
-    font-size: 17px;
-    margin: 3% 0;
-    border-bottom: 3px double #a02768;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
     display: inline-block;
+    text-align: left;
+}
+
+.merit_wrap img {
+    width: 30px;
 }
