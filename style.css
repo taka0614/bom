@@ -222,13 +222,14 @@ h2 , .entry_title {
 
 .entry_text {
     font-weight: bold;
-    margin: 10% auto;
+    margin: 15% auto;
     font-size: 20px;
     letter-spacing: 2px;
 }
 
 p.entry_text strong {
     font-size: 26px;
+    color: #a02768;
 }
 
 @keyframes light {
@@ -659,6 +660,10 @@ p.merit_text {
 
     p.merit_text {
         font-size: 30px;
+    }
+
+    p.entry_text strong {
+        font-size: 40px;
     }
 
 }
