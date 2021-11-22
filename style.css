@@ -94,10 +94,15 @@ h1 span {
 }
 
 p.top_title {
-    margin: 10% 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
     font-size: 28px;
     font-weight: bold;
     text-align: center;
+}
+
+p.top_title:nth-of-type(1) {
+    margin-top: 10%;
 }
 
 p.top_title span {
@@ -483,12 +488,12 @@ iframe {
     }
 
     .view_wrap {
-        margin: 5% 0;
+        margin: 10% 0 5%;
         width: 100%;
     }
 
-    .thema {
-        margin-top: 55%;
+    .thema::before {
+        height: 61vh;
     }
 
     .back {
@@ -517,7 +522,6 @@ iframe {
     }
 
     p.top_title {
-        margin: 10% 0%;
         font-size: 60px;
     }
 
@@ -601,4 +605,17 @@ iframe {
         font-size: 20px;
     }
 
+}
+
+.merit_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #a02768;
+}
+
+p.merit_text {
+    font-size: 18px;
+    margin: 3% 0;
+    border-bottom: solid 1px #a02768;
+    display: inline-block;
 }
