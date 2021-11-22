@@ -73,12 +73,19 @@ h1 {
     font-size: 30px;
     white-space: nowrap;text-shadow: 1px 1px 10px rgb(255 255 255 / 50%);
     font-family: 'Shippori Mincho', serif;
+    letter-spacing: 3px;
     z-index: 1;
 }
 
 h1 span {
     color: #a02768;
-    font-size: 60px;
+    font-size: 70px;
+    letter-spacing: 0;
+}
+
+.main_title p {
+    font-size: 28px;
+    letter-spacing: 3px;
 }
 
 .bivi {
@@ -99,6 +106,7 @@ p.top_title {
     font-size: 28px;
     font-weight: bold;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 p.top_title:nth-of-type(1) {
@@ -108,6 +116,7 @@ p.top_title:nth-of-type(1) {
 p.top_title span {
     font-size: 45px;
     color: #a02768;
+    letter-spacing: 0;
 }
 
 h2 {
@@ -142,7 +151,7 @@ h2 {
     width: 300px;
     height: 170px;
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     opacity: .3;
 }
@@ -212,8 +221,9 @@ h2 , .entry_title {
 
 .entry_text {
     font-weight: bold;
-    margin: 3% auto;
-    font-size: 18px;
+    margin: 10% auto;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 @keyframes light {
@@ -476,6 +486,36 @@ iframe {
     font-size: 14px;
 }
 
+.merit {
+    margin: 10% 0;
+}
+
+.merit_title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #a02768;
+    margin: 10%;
+}
+
+.merit_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5% 0;
+}
+
+p.merit_text {
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+}
+
+.merit_wrap img {
+    width: 30px;
+}
+
 @media (min-width:768px) {
 
     .top_view {
@@ -488,7 +528,7 @@ iframe {
     }
 
     .view_wrap {
-        margin: 10% 0 5%;
+        margin: 15% 0 5%;
         width: 100%;
     }
 
@@ -605,34 +645,9 @@ iframe {
         font-size: 20px;
     }
 
+    .merit_title {
+        font-size: 32px;
+    }
+
 }
 
-.merit {
-    margin: 10% 0;
-}
-
-.merit_title {
-    font-size: 28px;
-    font-weight: bold;
-    color: #a02768;
-    margin-bottom: 5%;
-}
-
-.merit_wrap {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 5% 0;
-}
-
-p.merit_text {
-    font-size: 20px;
-    margin-left: 10px;
-    font-weight: bold;
-    display: inline-block;
-    text-align: left;
-}
-
-.merit_wrap img {
-    width: 30px;
-}
